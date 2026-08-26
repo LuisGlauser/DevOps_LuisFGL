@@ -1,0 +1,4 @@
+# Resumo
+Essa aula foi realizada dia 05/08/2026, ela começou com uma introdução de todos os alunos e o professor anotou as caracteristicas de todos. Então ele deu uma explicada sobre o conteúdo e como seria as atividades, com a maioria delas sendo em grupo. Além de que não irá passar prova (Contem mentiras).
+
+Em resumo, a aula foi bem interessante, pois o professor abordou um pouco sobre o conteúdo. Mesmo que por cima, já deu para ter uma noção legal sobre o que vamos aprender, principalmente sobre versionamento de código e sobre como não ser um Go-Horse. Comentou também sobre trazer esse conteúdo que passamos para ele (nossas características) durante as aulas, para ver como estamos indo e ir mudando nossas concepções sobre nós mesmos.
