@@ -1,0 +1,32 @@
+name: Validação do Repositório de Conteúdo
+
+'on':
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-content:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar dependências
+        run: |
+          npm install --save-dev markdownlint-cli2 markdown-link-check
+
+      - name: Validar arquivos Markdown
+        run: |
+          npx markdownlint-cli2 "**/*.md"
+
+      - name: Verificar links quebrados
+        run: |
+          npx markdown-link-check "**/*.md" || true
