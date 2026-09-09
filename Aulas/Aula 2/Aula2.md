@@ -1,10 +1,23 @@
-# Anotações
-- Criar um repostorio para a matéria, 1 para o grupo e um pra cada atividade.
+# Notas da Aula
 
-### O Problema dew entregar software
-- Plan -> Code -> Build -> Test -> Release -> Deploy -> Operate -> Monitor -> Plan
+Durante a aula, foi destacado a importância de criar um repositório para a disciplina, além de um repositório específico para o grupo e outro para cada atividade desenvolvida.
 
--
-- Stitch AI
+### O problema de entregar software
 
-Atividade: fazer um projeto simples e utilizar o Vercel e Github
+A aula também apresentou o ciclo de entrega de software, conforme a seguinte sequência:
+
+- Plan
+- Code
+- Build
+- Test
+- Release
+- Deploy
+- Operate
+- Monitor
+- Plan
+
+Além disso, foi mencionada a ferramenta "Stitch AI" e discutida a sua relevância no contexto de desenvolvimento e automação.
+
+### Atividade proposta
+
+Foi solicitado a criação de um projeto simples, utilizando GitHub e Vercel como ferramentas para versionamento e implantação.
